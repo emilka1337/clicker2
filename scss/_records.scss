@@ -1,0 +1,26 @@
+.records {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 20px 80px;
+    border: 1px dashed crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        color: #fff;
+        transform: translateX(-20px);
+    }
+
+    ol {
+        margin: 0;
+        padding: 0;
+
+        li {
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+}

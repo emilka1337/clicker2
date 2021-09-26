@@ -1,0 +1,28 @@
+@keyframes counter-anim {
+    30% {
+        background: #fff;
+    }
+}
+
+@keyframes seconds-anim {
+    30% {
+        background: #fff;
+    }
+}
+
+@keyframes out-of-time {
+    30% {
+        background: crimson;
+        font-size: 2em;
+    }
+}
+
+@keyframes no-time-left {
+    from {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(1800deg);
+    }
+}

@@ -1,0 +1,41 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @import "./button";
+
+    h1,
+    h2 {
+        color: #fff;
+        margin: 5px;
+    }
+
+    #counter,
+    #timer {
+        transition: 500ms;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    #counter.counter-anim {
+        animation: counter-anim 500ms;
+    }
+
+    #timer.seconds-anim {
+        animation: seconds-anim 1s;
+
+        &.out-of-time {
+            animation: out-of-time 1s;
+
+        }
+
+        &.no-time-left {
+            background: crimson;
+            font-size: 2.5em;
+            animation: no-time-left 1000ms ease-out;
+        }
+    }
+}
+
+@import "./keyframes";

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker 2.0</title>
+    <link rel="stylesheet" href="./scss/styles.css">
+    <script defer src="./js/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game">
+            <h1>Result</h1>
+            <h1 id="counter">0</h1>
+            <button id="clicker">Click me!!!</button>
+            <h2>Timer</h2>
+            <h2 id="timer">10</h2>
+        </div>
+
+        <div class="set-timer">
+            <form >
+                <label for="setTimer">Game timeout:</label>
+                <input type="text" value="10" id="setTimer">
+            </form>
+        </div>
+
+        <div class="records">
+            <h2>Records:</h2>
+            <ol class="records-panel">
+
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

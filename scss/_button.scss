@@ -1,0 +1,33 @@
+button {
+    background: crimson;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10vh;
+    border-radius: 30px;
+    margin: 20px 0px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 4px solid rgb(185, 17, 51);
+    transition: 100ms;
+}
+
+button:active {
+    background: rgb(185, 17, 51);
+    border: none;
+}
+
+button.deactivated {
+    background: gray;
+    color: black;
+    cursor: default;
+    border: none;
+
+    &:active {
+        border: none;
+    }
+}
+
+button.deactivating {
+    transform: scale(1.5);
+}

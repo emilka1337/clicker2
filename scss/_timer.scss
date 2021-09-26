@@ -1,0 +1,24 @@
+.set-timer {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    label {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 5px;
+    }
+
+    input {
+        width: 5vw;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+
+        &:focus {
+            outline: 2px dashed crimson;
+        }
+    }
+}
